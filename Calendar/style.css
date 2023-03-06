@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.brand {
+  justify-self: center;
+  align-self: center;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  border: black double 5px;
+  border-radius: 30px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.page .page-title {
+  width: 100%;
+  text-align: center;
+}
+
+.page h1 {
+  justify-self: flex-start;
+}
+
+.date {
+  justify-self: center;
+  align-self: flex-start;
+}
+
+.event-card {
+  align-self: flex-start;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 350px;
+  border: black solid 3px;
+  border-radius: 30px;
+}
