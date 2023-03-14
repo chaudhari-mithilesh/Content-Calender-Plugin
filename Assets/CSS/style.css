@@ -1,3 +1,29 @@
-body {
-  background: red !important;
+.form-container {
+  display: flex;
+  width: 100%;
+}
+
+.inp-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+}
+
+.inp-form div {
+  width: 100%;
+}
+
+.inp-form input {
+  width: 50%;
+}
+
+.inp-form select {
+  width: 50%;
+}
+
+.inp-form label {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
