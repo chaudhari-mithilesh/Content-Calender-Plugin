@@ -1,30 +1,5 @@
 <?php
 
-function create_event_tables() {
-    global $wpdb;
-
-    $table_name = $wpdb->prefix . "events";
-    $charset_collate = $wpdb->get_charset_collate();
-
-    $sql = "CREATE TABLE IF NOT EXISTS $table_name(
-        id mediumint(9) AUTO_INCREMENT,
-        date date NOT NULL,
-        occassion text,
-        post_title text NOT NULL,
-        author varchar(40) NOT NULL,
-        reviewer varchar(40) NOT NULL,
-        PRIMARY KEY (id)
-    ) $charset_collate;";
-
-    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-    dbDelta( $sql );
-}
-
-register_activation_hook( __FILE__, 'create_event_tables' );
-
-
-
-
 // Form Submmition
 
 function form_submit() {
@@ -59,9 +34,6 @@ function submitBtn() {
         form_submit();
     }
 }
-
-
-
 
 
 function print_schedule() {
