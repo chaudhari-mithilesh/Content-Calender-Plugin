@@ -79,7 +79,7 @@ function content_calendar_schedule_callback()
 {
 ?>
 	<h1 class="my-plugin-title"><?php esc_html_e(get_admin_page_title()); ?></h1>
-    <br><br>
+    <br><br>    
 <?php
 	print_schedule();
 }
