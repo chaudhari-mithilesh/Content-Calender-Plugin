@@ -19,7 +19,7 @@ function register_event_page() {
         __('Schedule Event', 'content-calendar'),
         'manage_options',
         'schedule-event',
-        'event_page_html'
+        'content_calendar_form_callback'
     );
 
     add_submenu_page(
@@ -28,7 +28,7 @@ function register_event_page() {
 		__('View Schedule', 'content-calendar'),
 		'manage_options',
 		'view-schedule',
-		'print_schedule'
+		'content_calendar_schedule_callback'
 	);
 }
 

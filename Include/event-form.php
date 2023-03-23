@@ -61,9 +61,26 @@ function event_page_html() {
 function content_calendar_callback()
 {
 ?>
-	<h1 class="plugin-title"><?php esc_html_e(get_admin_page_title()); ?></h1>
+	<h1 class="my-plugin-title"><?php esc_html_e(get_admin_page_title()); ?></h1>
 <?php
 	event_page_html();
+	print_schedule();
+}
+
+function content_calendar_form_callback()
+{
+?>
+	<h1 class="my-plugin-title"><?php esc_html_e(get_admin_page_title()); ?></h1>
+<?php
+	event_page_html();
+}
+
+function content_calendar_schedule_callback()
+{
+?>
+	<h1 class="my-plugin-title"><?php esc_html_e(get_admin_page_title()); ?></h1>
+    <br><br>
+<?php
 	print_schedule();
 }
 
