@@ -7,7 +7,6 @@ Content Calendar enables admins to schedule posts for various authors and users 
 - Admin can schedule posts from the backend
 - Posts will be displayed in a table with the title, occasion, date, author, and reviewer
 - Posts can be reviewed by one of the admins
-- Customizable post fields
 
 ## Installation
 
