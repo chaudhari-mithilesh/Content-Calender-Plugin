@@ -21,3 +21,7 @@ Content Calendar enables admins to schedule posts for various authors and users 
 2. Enter the post details, including the title, occasion, date, author, and reviewer.
 3. Click on "Schedule" to schedule the post.
 4. The scheduled posts will be displayed in a table with the title, occasion, date, author, and reviewer.
+
+## Update
+
+In the newer commits, just find commented line $CUSTOM. There you will find custom code which was restructured. 
